@@ -24,7 +24,7 @@ var doc = "<product xmlns:sample='http://www.infoteria.com/jp/sample'>" +
 
 var result = tixpath.findXPath({
     doc: doc,
-    xpath: "//sample:name/@ida",
+    xpath: "//sample:name/@id",
     namespaces: {
         "sample": "http://www.infoteria.com/jp/sample"
     }
